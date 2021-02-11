@@ -1,0 +1,59 @@
+/* MOBILE */
+.search-container-mobile {
+  display: flex;
+  margin-top: 20px;
+  font-family: 'Karla-Regular';
+  width: 100%;
+  font-size: 20px;
+}
+
+.search-bar-mobile {
+  margin-top: 0px;
+  margin-left: 5px;
+  border: none;
+  width: 180px;
+}
+
+.logo-container-mobile {
+  border-right: 1px solid black;
+}
+
+.logo-mobile {
+  width: 60px;
+  float: left;
+  margin: 5px;
+}
+
+.search-icon-mobile {
+  margin-left: 5px;
+}
+
+
+/* DESKTOP */
+.search-container-desktop {
+  font-family: 'Karla-Regular';
+  width: 100%;
+  padding-left: 30px;
+  padding-top: 10px;
+  height: 50px;
+  background-color: white !important;
+}
+
+.search-bar-desktop {
+  margin-top: 3px;
+  margin-left: 10px;
+  border: none;
+  width: 300px;
+}
+
+.no-outline:focus {
+  outline: none;
+}
+
+.search-icon-desktop {
+  margin-top: 4px;
+}
+
+.gray-background {
+  background-color: #e4e4e4;
+}

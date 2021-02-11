@@ -1,0 +1,120 @@
+.bio-container {
+  text-align: left;
+  padding: 20px 35px 20px 35px; /* top right bottom left*/
+}
+
+.bio-content {
+
+}
+
+.bio-content h1 {
+  font-family: 'BluuNext';
+  font-size: 3.3rem;
+  margin-bottom: 0px;
+}
+
+/* author and school */
+.bio-content h3 {
+  font-family: 'Karla-Regular';
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+
+/* location header */
+.bio-content h2 {
+  font-family: 'BluuNext';
+}
+
+/* location description */
+.bio-content p {
+  font-family: 'Karla-Regular';
+  margin-top: 10px;
+}
+
+.bio-content img {
+  width: 100%;
+  position: relative;
+}
+
+.title-container {
+  display: flex;
+  margin-left: 15px;
+}
+
+.circle-container {
+  width: 50px;
+  height: 50px;
+}
+
+.circle {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid black;
+  text-align: center;
+  font-family: 'BluuNext';
+  font-size: 27px;
+  line-height: 30px;
+  z-index: 1;
+}
+
+.hover-container a{
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.arrow {
+  margin-left: 8px;
+  margin-top: 5px;
+}
+
+.hover-container:hover .arrow {
+  margin-left: 20px;
+  margin-top: 5px;
+  transition: .1s ease-in;
+}
+
+.personal-bio {
+  margin-top: 100px; /* top spacing */
+}
+
+.personal-bio img{
+  width: 100%;
+  border-radius: 50%;
+}
+
+/* stickers */
+.sticker-container {
+  width: 17%;
+  position: absolute;
+  right: 1%;
+  margin-top: -4%;
+}
+
+/* sticker stize */
+.sticker-container img{
+  width: 100%;
+}
+
+.sticker {
+  font-family: 'BluuNext';
+  z-index: 1;
+}
+
+
+/* mobile specific */
+.more-info-button {
+  background-color: black;
+  border: 2px solid black;
+  color: white !important;
+  padding: 8px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Karla-Regular';
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: 0.3s;
+}

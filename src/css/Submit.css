@@ -1,0 +1,37 @@
+.submit-container {
+  font-family: 'BluuNext';
+}
+
+.submit-container h1 {
+  font-family: 'Karla-Regular' ;
+  font-size: 2.3vh;
+  margin-bottom: 20px;
+}
+
+.submit-container p, .submit-container li {
+  font-size: 3.7vh;
+  font-weight: bold !important;
+  line-height: 130%;
+  margin-bottom: 4vh;
+}
+
+.submit-button {
+  font-family: 'Karla-Regular' ;
+  background-color: black;
+  border: 2px solid black;
+  color: white !important;
+  padding: 10px 44px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit-button:hover {
+  background-color: white;
+  color: black !important;
+  text-decoration: none;
+}

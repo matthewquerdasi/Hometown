@@ -1,0 +1,109 @@
+@font-face {
+  font-family: 'BluuNext';
+  src: url('../fonts/BluuNext-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Karla-Regular';
+  src: url('../fonts/Karla-Regular.woff') format('woff');
+}
+
+/* removing gaps inbetween boxes */
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
+hr {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  height: 1px !important;
+}
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  max-width: 100vw;
+  font-family: 'BluuNext', Fallback, sans-serif;
+  background-color: white;
+}
+
+.Search {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  border-bottom: 2px solid black;
+  background: white;
+  /* adjustments for border lines*/
+  margin-bottom: -1px;
+}
+
+.Menu {
+  border-right: 2px solid black;
+}
+
+.Navbar {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  border: 1px solid black;
+  width: 100%;
+  font-family: 'Karla-Regular';
+}
+
+/* Fonts */
+.BluuNext {
+  font-family: 'BluuNext', Fallback, sans-serif;
+}
+
+.Karla-Regular {
+  font-family: 'Karla-Regular';
+}
+
+.gray-background {
+  background-color: #e4e4e4;
+}
+
+.black {
+  color: black !important;
+}
+
+
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

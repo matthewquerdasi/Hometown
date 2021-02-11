@@ -1,0 +1,89 @@
+.about-container {
+  font-family: 'BluuNext';
+}
+
+.about-container h1 {
+  font-family: 'Karla-Regular' ;
+  font-size: 2.3vh;
+  margin-bottom: 20px;
+}
+
+/* TEAM NAME */
+.about-container h4 {
+  font-family: 'BluuNext' ;
+  font-size: 1.5rem;
+  margin-bottom: 0 !important;
+}
+
+/* TEAM HOMETOWN */
+.about-container h5 {
+  font-family: 'Karla-Regular' ;
+  font-size: 1.1rem;
+  font-style: italic;
+}
+
+
+
+.about-container p {
+  font-size: 3.7vh;
+  font-weight: bold !important;
+  line-height: 130%;
+  margin-bottom: 4vh;
+}
+
+.about-container img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.team-header {
+  font-family: 'BluuNext';
+}
+
+.team-paragraph {
+  font-family: 'Karla-Regular' ;
+}
+
+/* submit "here" specs */
+.submit-click {
+  text-decoration: underline;
+  color: #212529;
+}
+
+.submit-click:hover {
+  color: #785CE0;
+}
+
+
+/* stickers */
+.sticker-design {
+  width: 50%;
+  position: absolute;
+  right: -4%;
+  margin-top: -3%;
+}
+
+.sticker-engineering {
+  width: 56%;
+  position: absolute;
+  right: -19%;
+  margin-top: 15%;
+}
+
+.sticker-editing {
+  width: 50%;
+  position: absolute;
+  right: -10%;
+  margin-top: 40%;
+}
+
+.sticker-graphics {
+  width: 50%;
+  position: absolute;
+  left: 6%;
+  margin-top: -8%;
+}
+
+.sticker {
+  z-index: 1;
+}
