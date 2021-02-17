@@ -1,13 +1,32 @@
 import React, { Component } from 'react';
+import {withRouter} from 'react-router-dom';
+import PersonsData from '../data/persons.json';
 import '../css/BioSidebar.css';
 import '../css/bootstrap.min.css';
 
 
+
 class BioSidebar extends Component {
+
 
   render() {
 
-    const location = this.props.selectedLocation;
+    {/* setting start location based on url or parent route */}
+    if(this.props.selectedLocation == 1) {
+      const id = this.props.match.params.id
+
+      const sp = PersonsData.filter(person => {
+        return person.id == id
+      })
+
+      const startLocation = sp[0].locations[0]
+
+      var location = startLocation
+
+    } else {
+      var location = this.props.selectedLocation
+    }
+
 
     return (
       <div className="biosidebar-container sticky-top">
@@ -55,4 +74,4 @@ class BioSidebar extends Component {
 
 
 
-export default BioSidebar;
+export default withRouter(BioSidebar);

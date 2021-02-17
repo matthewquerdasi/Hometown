@@ -1,5 +1,104 @@
 [
     {
+        "id": 8,
+        "firstName": "Alessandro",
+        "lastName": "Sassi",
+        "town": "Fargo",
+        "stateAbbrv": "ND",
+        "school": "Wesleyan University",
+        "classYear": "21",
+        "cardImage": "/images/cards/8card.jpg",
+        "bioImage": "/images/8/bio.jpg",
+        "bioBlurb": "Alessandro Sassi is a senior Film and Italian Studies major at Wesleyan University. He is passionate about screenwriting and directing and is always looking for an excuse to go to Italy.",
+
+        "locations": [
+            {
+              "id": "0",
+              "title": "",
+              "image": "/images/8/header.JPG",
+              "sidebar_image": "/images/8/header_sidebar.JPG",
+              "image_description": "",
+              "description": "My family moved to Fargo in the summer of 2009, after my mom got a job at North Dakota State University as a professor of English and Education. My memories of growing up in Fargo involve everything from late night bike rides during the summer to the fiercely cold winters. Most people only know of Fargo through the 1996 Coen film (the most asked question I got at college was whether I’d seen it!), and even though I love the movie, there is so much more to learn and explore in my hometown.",
+              "map_link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d174621.348932492!2d-96.96859733730017!3d46.85434725236792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52c8cb8d84677145%3A0x81aa30a52791aaca!2sFargo%2C%20ND!5e0!3m2!1sen!2sus!4v1612132590725!5m2!1sen!2sus",
+              "directions_link": "https://goo.gl/maps/ReXzvBJtL65QjTS6A",
+              "extralink_title": "CITY WEBSITE",
+              "extralink_link": "https://fargond.gov/",
+              "sticker": "",
+              "display": "d-none"
+            },
+            {
+              "id": "1",
+              "title": "Downtown Fargo",
+              "image": "/images/8/location1.jpg",
+              "sidebar_image": "/images/8/sidebar1.jpg",
+              "image_description": "",
+              "description": "One Fargo must-see is its vibrant downtown. Beginning in scenic Island Park and stretching until about 10th Avenue North, there is no shortage of great food, bars, and shops—lots to see and lots to taste! I would personally recommend starting at the North end of Island Park and walking up Broadway to check out any shop, restaurant, or side street that jumps out at you. A few of my personal downtown favorites are the Historic Fargo Theater, the Fargo Public Library, Zanbroz Bookstore, and Spicy Pie Pizzeria. Make sure to keep an eye out for beautiful graffiti and murals sprinkled throughout downtown. Also! If you are brave enough to be visiting Fargo during the winter make sure to check out the Broadway Square Skating Rink. I’d recommend warming up with some Miso soup from the sushi restaurant, Wasabi, across the street after you’ve finished skating.",
+              "map_link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21818.698311942324!2d-96.8059179279735!3d46.87641271513767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52c8c95dfe7e929f%3A0x1a9de8fb18f64b42!2sDowntown%2C%20Fargo%2C%20ND!5e0!3m2!1sen!2sus!4v1612132825198!5m2!1sen!2sus",
+              "directions_link": "https://goo.gl/maps/U8QXv7KGDr4jwNk86",
+              "extralink_title": "WEBSITE",
+              "extralink_link": "http://downtownfargo.com/",
+              "sticker": "",
+              "footer": ""
+            },
+            {
+              "id": "2",
+              "title": "The Plains Art Museum",
+              "image": "/images/8/location2.jpg",
+              "sidebar_image": "/images/8/sidebar2.jpg",
+              "image_description": "",
+              "description": "Also located in the downtown area, the Plains Art Museum is a great place to check out regional art. The permanent collection consists of over 4,000 pieces alongside rotating installations and exhibits. The Plains Art Museum is dedicated to the preservation and exhibition of artwork from underrepresented groups: Native American artwork can always be seen in the museum’s permanent collection, and is also often featured in temporary exhibits. Aside from the wonderful selection of art, I would recommend a visit to the museum simply to check out its beautiful architecture. The exposed wood and metal of the multiple stories of the museum truly mark it as a notable piece of architecture in the downtown area.",
+              "map_link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2727.3135551770697!2d-96.79403968439466!3d46.876879679143066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52c8c96079435ee1%3A0xb823e4d23d2ed98b!2sPlains%20Art%20Museum!5e0!3m2!1sen!2sus!4v1612132894271!5m2!1sen!2sus",
+              "directions_link": "https://goo.gl/maps/g3gnk5U3aZZLwAdw5",
+              "extralink_title": "WEBSITE",
+              "extralink_link": "https://plainsart.org/",
+              "sticker": "",
+              "footer": ""
+            },
+            {
+              "id": "3",
+              "title": "The Hjemkomst Center",
+              "image": "/images/8/location3.jpg",
+              "sidebar_image": "/images/8/sidebar3.jpg",
+              "image_description": "",
+              "description": "While not technically in Fargo, the Hjemkomst Center is a wonderful attraction in Moorhead (just across the Red River) which is certainly worth checking out. They have an actual Viking ship! Seriously, I’m not kidding. The Hjemkomst Center is home to a full-size replica of a Viking ship that a group from Moorhead sailed from Duluth, Minnesota all the way to Bergen, Norway in 1982. Apart from the ship, there is also a traditional Norwegian Stave church (make sure to sign up for a tour!), rotating art exhibits, and lots of historical information about the Fargo/Moorhead area. If you are visiting during the month of June, I would highly recommend attending the Midwest Viking Festival. It’s a weekend full of traditional Scandinavian food (the pancake balls are my favorite), lots of crafts and activities, and even Viking battle reenactments!",
+              "map_link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2727.265041394374!2d-96.78052438439462!3d46.87783417914303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52c8c9420b0e37e3%3A0xec95220c2e6613!2sHjemkomst%20Center!5e0!3m2!1sen!2sus!4v1612132978846!5m2!1sen!2sus",
+              "directions_link": "https://goo.gl/maps/4bEXTy1cExe1JrUS7",
+              "extralink_title": "WEBSITE",
+              "extralink_link": "https://www.hcscconline.org/",
+              "sticker": "/images/stickers/daytrip.png",
+              "footer": ""
+            },
+            {
+              "id": "4",
+              "title": "Riverside Bike Path",
+              "image": "/images/8/location4.jpg",
+              "sidebar_image": "/images/8/sidebar4.jpg",
+              "image_description": "",
+              "description": "This is a personal Fargo favorite of mine. If you’re looking for a nice place to take a walk, or are interested in running or biking, I would highly recommend the Fargo/Moorhead bike paths. They stretch for miles on both sides of the Red River, and they’re a great place to stretch your legs and enjoy some nature. Some great spots to check out along the bike path are Gooseberry Park, Lindenwood Park, the Dam, and the community gardens.",
+              "map_link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5456.377019487131!2d-96.78708916683101!3d46.8596625472683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52c8c952dd91d5fb%3A0x506be3868591c83f!2sBurdick%20Park!5e0!3m2!1sen!2sus!4v1612133165453!5m2!1sen!2sus",
+              "directions_link": "https://goo.gl/maps/JhQiAH9fNHTzi1Vz9",
+              "extralink_title": "RED RIVER INFO",
+              "extralink_link": "https://www.fargomoorhead.org/outdoor-activities/article/enjoy-fargo-moorhead/",
+              "sticker": "",
+              "footer": ""
+            },
+            {
+              "id": "5",
+              "title": "India Palace",
+              "image": "/images/8/location5.jpeg",
+              "sidebar_image": "/images/8/sidebar5.jpg",
+              "image_description": "",
+              "description": "This one’s a family favorite. When we decide we want to order takeout,  9 times out of 10 we’re ordering from India Palace. This local restaurant, located towards West Fargo, offers a variety of flavorful dishes. Aren’t sure what you want? The incredibly friendly staff is always happy to suggest something new for you to try! Dining in is great, as is ordering the food back to your house or hotel to relax after a long day of exploring the city!",
+              "map_link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2728.0964969702654!2d-96.8735793843952!3d46.861473379142396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52c8cb5aaff53075%3A0xf5582997dff35cac!2sIndia%20Palace%20Restaurant!5e0!3m2!1sen!2sus!4v1612133286028!5m2!1sen!2sus",
+              "directions_link": "https://goo.gl/maps/PPNYfGCjqWAnhLHq6",
+              "extralink_title": "MENU",
+              "extralink_link": "https://www.indiapalacefargo.com/our-menu",
+              "sticker": "/images/stickers/local.png",
+              "footer": "Make sure to send your business this way—this spot is BIPOC-owned!"
+            }
+        ]
+    },
+    {
         "id": 1,
         "firstName": "Matt",
         "lastName": "Querdasi",
@@ -436,6 +535,105 @@
         ]
     },
     {
+        "id": 15,
+        "firstName": "Hannah",
+        "lastName": "Docter-Loeb",
+        "town": "Washington",
+        "stateAbbrv": "DC",
+        "school": "Wesleyan University",
+        "classYear": "22",
+        "cardImage": "/images/cards/15card.jpg",
+        "bioImage": "/images/15/bio.jpg",
+        "bioBlurb": "Hannah Docter-Loeb is a junior at Wesleyan University double majoring in Biology and Psychology and minoring in Education Studies. She was born in D.C. in a hospital that is now a Trader Joe’s, and has lived there—D.C., not the Trader Joe’s—her whole life. In her free time, she enjoys writing, playing the piano, and watching reruns of How I Met Your Mother.",
+
+        "locations": [
+            {
+              "id": "0",
+              "title": "",
+              "image": "/images/15/header.jpg",
+              "sidebar_image": "/images/15/header_sidebar.jpg",
+              "image_description": "",
+              "description": "I’m from D.C. Not Bethesda, not Arlington; Washington D.C. I know that sounds pretentious to say, but my pride for my city is real (unlike our representation in Congress). Every year D.C. brings in millions of wanted and unwanted visitors—MAGA men, I’m looking at you!—who seem to only stick within a two-mile radius of the National Mall. But there’s so much more to D.C. than just monuments, memorials, and the White House. Hence, I’ve compiled a list of my top not-too-touristy destinations in D.C.",
+              "map_link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d397480.95575856965!2d-77.29408047969106!3d38.893797788992224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c6de5af6e45b%3A0xc2524522d4885d2a!2sWashington%2C%20DC!5e0!3m2!1sen!2sus!4v1613437799459!5m2!1sen!2sus",
+              "directions_link": "https://goo.gl/maps/8RU4JJ7jwQzHCcX87",
+              "extralink_title": "WEBSITE",
+              "extralink_link": "",
+              "sticker": "",
+              "display": "d-none"
+            },
+            {
+              "id": "1",
+              "title": "Washington National Cathedral",
+              "image": "/images/15/location1.jpg",
+              "sidebar_image": "/images/15/sidebar1.jpg",
+              "image_description": "",
+              "description": "Although it has yet to fully recover from DC’s first earthquake in 2011, the National Cathedral is still one of my all-time favorite places in D.C. A mere half-mile from my home, the National Cathedral (and the associated Bishop's Garden and Olmsted Woods) is my go-to location for any occasion. Whether you’re planning on a picnic with friends, a late-night stroll, or even taking prom pics, it’s truly the place to be. Also, don’t miss the cottage next door, which houses the cutest cafe called Open City (unfortunately temporarily closed in COVID times).",
+              "map_link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3103.7104739802867!2d-77.07296948464861!3d38.930594579565536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b62764ce4687%3A0x9a075d72958e3fd0!2sWashington%20National%20Cathedral!5e0!3m2!1sen!2sus!4v1613437849727!5m2!1sen!2sus",
+              "directions_link": "https://goo.gl/maps/fQKe8gSPgP9UJyweA",
+              "extralink_title": "WEBSITE",
+              "extralink_link": "https://cathedral.org",
+              "sticker": "",
+              "footer": ""
+            },
+     	{
+              "id": "2",
+              "title": "Rock Creek Park",
+              "image": "/images/15/location2.jpg",
+              "sidebar_image": "/images/15/sidebar2.jpg",
+              "image_description": "",
+              "description": "New York’s Central Park has nothing on Rock Creek Park. With 2.7 square miles of foliage, hiking trails, and creeks, this park is filled with more nooks and crannies than even a native Washingtonian like myself has time to fully explore. Over the weekends, many of the roads are closed to cars, providing ample space for bikers, walkers, and runners. In elementary school, my family would spend nearly every Saturday in the park, walking and collecting sticks for Poohsticks.",
+              "map_link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3102.545149825909!2d-77.0486936846479!3d38.957218379561475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c8f06a225943%3A0x601267b7d15c622d!2sRock%20Creek%20Park!5e0!3m2!1sen!2sus!4v1613437963195!5m2!1sen!2sus",
+              "directions_link": "https://goo.gl/maps/mXCfG15npZdoPQUGA",
+              "extralink_title": "WEBSITE",
+              "extralink_link": "https://www.nps.gov/rocr/index.htm",
+              "sticker": "",
+              "footer": ""
+            },
+     	{
+              "id": "3",
+              "title": "POPPABOX",
+              "image": "/images/15/location3.jpg",
+              "sidebar_image": "/images/15/sidebar3.jpg",
+              "image_description": "",
+              "description": "POPPABOX is my go-to “let’s get a meal” place. Located in Foggy Bottom, just a few blocks from my high school, Poppabox was a common destination for my off-campus lunches. Their menu consists of everything from Asian-fusion to wraps to chicken and waffles. Whenever I go, I get the beef bulgogi mini bowl, and I sincerely suggest everyone else do the same (substituting beef with tofu if you’re vegetarian).",
+              "map_link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3104.998615352016!2d-77.04690268464954!3d38.901146979570015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b7ba0bd7a229%3A0x8384eab72b439d0a!2sPoppaBox!5e0!3m2!1sen!2sus!4v1613438055846!5m2!1sen!2sus",
+              "directions_link": "https://goo.gl/maps/1jVmk52ehgiVgFuK6",
+              "extralink_title": "WEBSITE",
+              "extralink_link": "https://www.poppaboxdc.com/",
+              "sticker": "/images/stickers/bang.png",
+              "footer": ""
+            },
+     	{
+              "id": "4",
+              "title": "C and O Canal",
+              "image": "/images/15/location4.jpg",
+              "sidebar_image": "/images/15/sidebar4.jpg",
+              "image_description": "",
+              "description": "Another place I frequented often during my childhood is the C and O Canal, a 185-mile canal that spans from Cumberland, Maryland all the way to Georgetown. If you’re looking for a nice nature walk close to the city, this great trail is nestled right alongside the Potomac River. Lock 7 and Fletcher's Cove are some of my favorite stops along the way. I don’t advise doing the whole trail, at least not in one day—it’s a real trek.That being said, this past May my best friend and I walked over ten miles of the trail as part of our TikTok-inspired half marathon walk, and it was a blast.",
+              "map_link": "https://www.google.com/maps/embed/v1/place?q=place_id:ChIJtXfIYcLJt4kRFuSHy_6ODI0&key=AIzaSyDgeO5uTtTrtWLjvEUGI5M6C_uwAwisc3s",
+              "directions_link": "https://goo.gl/maps/AMFUwfy8fTQ9hHrB7",
+              "extralink_title": "WEBSITE",
+              "extralink_link": "https://www.nps.gov/choh/index.htm",
+              "sticker": "/images/stickers/spot.png",
+              "footer": ""
+            },
+     	{
+              "id": "5",
+              "title": "Comet Ping Pong",
+              "image": "/images/15/location5.jpg",
+              "sidebar_image": "/images/15/sidebar5.jpg",
+              "image_description": "",
+              "description": "When it’s not supposedly operating as a pedophile ring, Comet Pizza is a great spot for the whole family. While most come for the pizza and ping pong, as a kid I was always amused by the videos of Rube Goldstein machines that would be projected on the walls. I also recommend checking out its neighboring bookstore, Politics and Prose, if you’re in need of a good book, or a present for a loved one.",
+              "map_link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3102.6007135607015!2d-77.07216158464792!3d38.955949279561636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c9b98f61ad27%3A0x81a8bf734dd1c58f!2sComet%20Ping%20Pong!5e0!3m2!1sen!2sus!4v1613438290212!5m2!1sen!2sus",
+              "directions_link": "https://goo.gl/maps/xmygR1mud8wx52tU9",
+              "extralink_title": "WEBSITE",
+              "extralink_link": "https://www.cometpingpong.com/",
+              "sticker": "/images/stickers/local2.png",
+              "footer": "Some Honorable Mentions: Call Your Mother Deli, The Sculpture Garden, and any restaurant by José Andrés"
+            }
+        ]
+    },
+    {
         "id": 7,
         "firstName": "Saakshi",
         "lastName": "Kakar",
@@ -719,105 +917,6 @@
         ]
     },
     {
-        "id": 8,
-        "firstName": "Alessandro",
-        "lastName": "Sassi",
-        "town": "Fargo",
-        "stateAbbrv": "ND",
-        "school": "Wesleyan University",
-        "classYear": "21",
-        "cardImage": "/images/cards/8card.jpg",
-        "bioImage": "/images/8/bio.jpg",
-        "bioBlurb": "Alessandro Sassi is a senior Film and Italian Studies major at Wesleyan University. He is passionate about screenwriting and directing and is always looking for an excuse to go to Italy.",
-
-        "locations": [
-            {
-              "id": "0",
-              "title": "",
-              "image": "/images/8/header.JPG",
-              "sidebar_image": "/images/8/header_sidebar.JPG",
-              "image_description": "",
-              "description": "My family moved to Fargo in the summer of 2009, after my mom got a job at North Dakota State University as a professor of English and Education. My memories of growing up in Fargo involve everything from late night bike rides during the summer to the fiercely cold winters. Most people only know of Fargo through the 1996 Coen film (the most asked question I got at college was whether I’d seen it!), and even though I love the movie, there is so much more to learn and explore in my hometown.",
-              "map_link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d174621.348932492!2d-96.96859733730017!3d46.85434725236792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52c8cb8d84677145%3A0x81aa30a52791aaca!2sFargo%2C%20ND!5e0!3m2!1sen!2sus!4v1612132590725!5m2!1sen!2sus",
-              "directions_link": "https://goo.gl/maps/ReXzvBJtL65QjTS6A",
-              "extralink_title": "CITY WEBSITE",
-              "extralink_link": "https://fargond.gov/",
-              "sticker": "",
-              "display": "d-none"
-            },
-            {
-              "id": "1",
-              "title": "Downtown Fargo",
-              "image": "/images/8/location1.jpg",
-              "sidebar_image": "/images/8/sidebar1.jpg",
-              "image_description": "",
-              "description": "One Fargo must-see is its vibrant downtown. Beginning in scenic Island Park and stretching until about 10th Avenue North, there is no shortage of great food, bars, and shops—lots to see and lots to taste! I would personally recommend starting at the North end of Island Park and walking up Broadway to check out any shop, restaurant, or side street that jumps out at you. A few of my personal downtown favorites are the Historic Fargo Theater, the Fargo Public Library, Zanbroz Bookstore, and Spicy Pie Pizzeria. Make sure to keep an eye out for beautiful graffiti and murals sprinkled throughout downtown. Also! If you are brave enough to be visiting Fargo during the winter make sure to check out the Broadway Square Skating Rink. I’d recommend warming up with some Miso soup from the sushi restaurant, Wasabi, across the street after you’ve finished skating.",
-              "map_link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21818.698311942324!2d-96.8059179279735!3d46.87641271513767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52c8c95dfe7e929f%3A0x1a9de8fb18f64b42!2sDowntown%2C%20Fargo%2C%20ND!5e0!3m2!1sen!2sus!4v1612132825198!5m2!1sen!2sus",
-              "directions_link": "https://goo.gl/maps/U8QXv7KGDr4jwNk86",
-              "extralink_title": "WEBSITE",
-              "extralink_link": "http://downtownfargo.com/",
-              "sticker": "",
-              "footer": ""
-            },
-            {
-              "id": "2",
-              "title": "The Plains Art Museum",
-              "image": "/images/8/location2.jpg",
-              "sidebar_image": "/images/8/sidebar2.jpg",
-              "image_description": "",
-              "description": "Also located in the downtown area, the Plains Art Museum is a great place to check out regional art. The permanent collection consists of over 4,000 pieces alongside rotating installations and exhibits. The Plains Art Museum is dedicated to the preservation and exhibition of artwork from underrepresented groups: Native American artwork can always be seen in the museum’s permanent collection, and is also often featured in temporary exhibits. Aside from the wonderful selection of art, I would recommend a visit to the museum simply to check out its beautiful architecture. The exposed wood and metal of the multiple stories of the museum truly mark it as a notable piece of architecture in the downtown area.",
-              "map_link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2727.3135551770697!2d-96.79403968439466!3d46.876879679143066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52c8c96079435ee1%3A0xb823e4d23d2ed98b!2sPlains%20Art%20Museum!5e0!3m2!1sen!2sus!4v1612132894271!5m2!1sen!2sus",
-              "directions_link": "https://goo.gl/maps/g3gnk5U3aZZLwAdw5",
-              "extralink_title": "WEBSITE",
-              "extralink_link": "https://plainsart.org/",
-              "sticker": "",
-              "footer": ""
-            },
-            {
-              "id": "3",
-              "title": "The Hjemkomst Center",
-              "image": "/images/8/location3.jpg",
-              "sidebar_image": "/images/8/sidebar3.jpg",
-              "image_description": "",
-              "description": "While not technically in Fargo, the Hjemkomst Center is a wonderful attraction in Moorhead (just across the Red River) which is certainly worth checking out. They have an actual Viking ship! Seriously, I’m not kidding. The Hjemkomst Center is home to a full-size replica of a Viking ship that a group from Moorhead sailed from Duluth, Minnesota all the way to Bergen, Norway in 1982. Apart from the ship, there is also a traditional Norwegian Stave church (make sure to sign up for a tour!), rotating art exhibits, and lots of historical information about the Fargo/Moorhead area. If you are visiting during the month of June, I would highly recommend attending the Midwest Viking Festival. It’s a weekend full of traditional Scandinavian food (the pancake balls are my favorite), lots of crafts and activities, and even Viking battle reenactments!",
-              "map_link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2727.265041394374!2d-96.78052438439462!3d46.87783417914303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52c8c9420b0e37e3%3A0xec95220c2e6613!2sHjemkomst%20Center!5e0!3m2!1sen!2sus!4v1612132978846!5m2!1sen!2sus",
-              "directions_link": "https://goo.gl/maps/4bEXTy1cExe1JrUS7",
-              "extralink_title": "WEBSITE",
-              "extralink_link": "https://www.hcscconline.org/",
-              "sticker": "/images/stickers/daytrip.png",
-              "footer": ""
-            },
-            {
-              "id": "4",
-              "title": "Riverside Bike Path",
-              "image": "/images/8/location4.jpg",
-              "sidebar_image": "/images/8/sidebar4.jpg",
-              "image_description": "",
-              "description": "This is a personal Fargo favorite of mine. If you’re looking for a nice place to take a walk, or are interested in running or biking, I would highly recommend the Fargo/Moorhead bike paths. They stretch for miles on both sides of the Red River, and they’re a great place to stretch your legs and enjoy some nature. Some great spots to check out along the bike path are Gooseberry Park, Lindenwood Park, the Dam, and the community gardens.",
-              "map_link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5456.377019487131!2d-96.78708916683101!3d46.8596625472683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52c8c952dd91d5fb%3A0x506be3868591c83f!2sBurdick%20Park!5e0!3m2!1sen!2sus!4v1612133165453!5m2!1sen!2sus",
-              "directions_link": "https://goo.gl/maps/JhQiAH9fNHTzi1Vz9",
-              "extralink_title": "RED RIVER INFO",
-              "extralink_link": "https://www.fargomoorhead.org/outdoor-activities/article/enjoy-fargo-moorhead/",
-              "sticker": "",
-              "footer": ""
-            },
-            {
-              "id": "5",
-              "title": "India Palace",
-              "image": "/images/8/location5.jpeg",
-              "sidebar_image": "/images/8/sidebar5.jpg",
-              "image_description": "",
-              "description": "This one’s a family favorite. When we decide we want to order takeout,  9 times out of 10 we’re ordering from India Palace. This local restaurant, located towards West Fargo, offers a variety of flavorful dishes. Aren’t sure what you want? The incredibly friendly staff is always happy to suggest something new for you to try! Dining in is great, as is ordering the food back to your house or hotel to relax after a long day of exploring the city!",
-              "map_link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2728.0964969702654!2d-96.8735793843952!3d46.861473379142396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52c8cb5aaff53075%3A0xf5582997dff35cac!2sIndia%20Palace%20Restaurant!5e0!3m2!1sen!2sus!4v1612133286028!5m2!1sen!2sus",
-              "directions_link": "https://goo.gl/maps/PPNYfGCjqWAnhLHq6",
-              "extralink_title": "MENU",
-              "extralink_link": "https://www.indiapalacefargo.com/our-menu",
-              "sticker": "/images/stickers/local.png",
-              "footer": "Make sure to send your business this way—this spot is BIPOC-owned!"
-            }
-        ]
-    },
-    {
         "id": 9,
         "firstName": "Maya",
         "lastName": "Hayda",
@@ -1014,6 +1113,204 @@
               "footer": ""
             }
         ]
+    },
+    {
+      "id": 13,
+      "firstName": "Chapin",
+      "lastName": "Montague",
+      "town": "Chattanooga",
+      "stateAbbrv": "TN",
+      "school": "Wesleyan University",
+      "classYear": "21",
+      "cardImage": "/images/cards/13card.jpg",
+      "bioImage": "/images/13/bio.jpg",
+      "bioBlurb": "Chapin is a senior at Wesleyan University majoring in Theater and Anthropology. She enjoys listening to podcasts (and hopefully working on one one day), the musical genius that is Waxahatchee, cold calling voters, and has recently taken up knitting for the fifth time in her life. Oh, and she's obsessed with her hometown.",
+
+      "locations": [
+            {
+              "id": "0",
+              "title": "",
+              "image": "/images/13/header.jpg",
+              "sidebar_image": "/images/13/header_sidebar.jpg",
+              "image_description": "",
+              "description": "Chattanooga, Chatt Town, Nooga, Chattaboogie... This Southern city has made a name for itself in more names than one. Nestled in a valley along the Tennessee River, it was once called the “Dirtiest City in America” due to the overwhelming amount of pollution throughout the first half of the 20th century. Now, locals and tourists alike have access to an electric public bus system, an accessible and expansive riverwalk, a bike share program (which at the time of its launch was the largest in the Southeast!), and the first airport in the country 100% powered by renewable energy. On top of these achievements, Chattanooga has also been nicknamed “Gig City” for our fast, cheap internet, which has attracted a multitude of innovators and entrepreneurs. Chattanooga also loves to boast about its access to the outdoors, acting as a hotspot for climbers, whitewater kayakers, and hikers. This city is a special place, and people are starting to notice: in 2018, we actually landed on the NY Times list of the 52 best places to travel! It wasn’t until I left for college that I even came to realize how much I loved it here. While growing up, I always had a complicated relationship with being from a Southern state, but now I hold a newfound appreciation for living in such a place—in Chattanooga, my views may sometimes be questioned, but I still enjoy learning about and fighting for this city each and every day.",
+              "map_link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d417833.90552430635!2d-85.51887233937312!3d35.098535077471325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886060408a83e785%3A0x2471261f898728aa!2sChattanooga%2C%20TN!5e0!3m2!1sen!2sus!4v1613075212264!5m2!1sen!2sus",
+              "directions_link": "https://goo.gl/maps/TN1V1HdjJFASgrEF9",
+              "extralink_title": "WEBSITE",
+              "extralink_link": "https://www.visitchattanooga.com",
+              "sticker": "",
+              "display": "d-none"
+            },
+            {
+              "id": "1",
+              "title": "Main Street Meats",
+              "image": "/images/13/location1.jpg",
+              "sidebar_image": "/images/13/sidebar1.jpg",
+              "image_description": "",
+              "description": "This entry may count as cheating: these are technically two businesses in one building, and I may be biased because one of them, Main Street Meats, is owned by my dad. However, this bakery and butcher shop (turned farm-to-table restaurant) are really two peas in a pod. Niedlov’s Breadworks is a Chattanooga institution. They have been an amazing resource during the COVID-19 pandemic, donating pastries and coffee to healthcare workers, and encouraging patrons to donate bread to the local food pantry. You can’t go wrong with anything on their menu, but some of my favorites include the breakfast brie english muffin (featuring Main Street Meats city ham), the turkey and goat cheese sandwich, and the lemon curd danish. Their cinnamon rolls are mind blowing, and I’ve been eating them since I was nine, when I started spending my afternoons in my dad’s restaurant. Meanwhile, Main Street Meats is widely considered to have the best burger in town (featuring a Niedlov’s bun). The restaurant also doubles as a butcher shop, and is committed to providing local meat and produce from local farms. Their hidden gem is definitely the potato salad: their crispy, vinegary take on this southern staple is a must have.",
+              "map_link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3266.859174355862!2d-85.30666928475875!3d35.035252780349886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88605dd7c1e18e8d%3A0x5b52ac4c58bec8cc!2sMain%20Street%20Meats!5e0!3m2!1sen!2sus!4v1613075405803!5m2!1sen!2sus",
+              "directions_link": "https://g.page/MainStMeats?share",
+              "extralink_title": "WEBSITE",
+              "extralink_link": "https://www.instagram.com/mainstreetmeats/ ",
+              "sticker": "/images/stickers/local.png",
+              "footer": ""
+            },
+            {
+              "id": "2",
+              "title": "Wildflower Tea Shop & Apothecary",
+              "image": "/images/13/location2.jpg",
+              "sidebar_image": "/images/13/sidebar2.jpg",
+              "image_description": "",
+              "description": "Not far from Niedlov’s and MSM is a newer Chattanooga addition—Wildflower Tea Shop & Apothecary. Walking in, you’ll be greeted with a wall of loose leaf tea, along with an endless menu describing their moods and flavor profiles. I actually recommend getting one of their tea lattes, which are as delicious as they are beautiful. I consider this shop to be truly magical, not only due to their wide selection of incense and crystals, but also because on one visit to the shop to see one of my favorite band’s Wildflower pop up sets, I was spontaneously invited to an underground concert. Yes, this really happened, and who knows… it could happen to you too! Otherwise, a pot of tea on the iconic yellow couch or a to-go cup to take with you while strolling through the neighborhood will definitely suffice.",
+              "map_link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3266.762188798324!2d-85.30978028475873!3d35.03767878034932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88605e78bf4039e1%3A0x8334797e063a0f95!2sWildflower%20Tea%20Shop%20%26%20Apothecary!5e0!3m2!1sen!2sus!4v1613075471256!5m2!1sen!2sus",
+              "directions_link": "https://g.page/wildflowerteashop?share",
+              "extralink_title": "WEBSITE",
+              "extralink_link": "http://www.wildflowerteashop.com",
+              "sticker": "/images/stickers/local2.png",
+              "footer": "Make sure to send your business this way—this spot is women-owned!"
+            },
+            {
+              "id": "3",
+              "title": "North Chick Blue Hole",
+              "image": "/images/13/location3.jpg",
+              "sidebar_image": "/images/13/sidebar3.jpg",
+              "image_description": "",
+              "description": "About a 20-minute drive from downtown, this swimming hole makes for the perfect summer activity on a hot, humid Southern day. A fun and easy hike, usually lasting under an hour, will bring you to two popular jump-off points. But the real fun comes when you continue on the trail to find even more picturesque swimming holes with crystal clear water that you can often have all to yourself! Pack a picnic (maybe a baguette or some sammies from Niedlov's and Main Street Meats), bring some friends, and enjoy the perfect day trip!",
+              "map_link": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3258.8773255096894!2d-85.2305656!3d35.2344237!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88608cf5a540c251%3A0x7f6b51acac706b61!2sNorth%20Chickamauga%20Creek%20Gorge%20Trailhead%20(Pocket%20Wilderness)!5e0!3m2!1sen!2sus!4v1613075571713!5m2!1sen!2sus",
+              "directions_link": "https://goo.gl/maps/oRqQXHY28ZcwKAup7",
+              "extralink_title": "WEBSITE",
+              "extralink_link": "https://rootsrated.com/chattanooga-tn/hiking/north-chick-blue-hole",
+              "sticker": "/images/stickers/daytrip.png",
+              "footer": ""
+            },
+    	      {
+              "id": "4",
+              "title": "Crabtree Farms",
+              "image": "/images/13/location4.jpg",
+              "sidebar_image": "/images/13/sidebar4.jpg",
+              "image_description": "",
+              "description": "It is certainly a rarity to find a full-scale farm in the center of a city, and yet that is exactly what Crabtree Farms is! Located just minutes from downtown, this urban farm has everything from produce to honeybees, from flowers to goats. Feel free to either sign up as a volunteer, or just enjoy a U-pick outing with your friends: you can harvest berries and flowers in the summer, pumpkins in the fall, and even Christmas trees in winter! Alternatively, you could also give the farm a visit at the Main St. Farmers market on Wednesdays, alongside a variety of other vendors. The best day at Crabtree is the 100 dinner (pictured above), which takes place in June and features dishes entirely sourced within 100 miles, cooked by some of the city's best chefs. Tickets are hard to come by, but a little pro tip is that you can work the event as a waiter and eat all the delish leftovers for free!",
+              "map_link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3267.8431624167747!2d-85.30280168475944!3d35.01063098035605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88605db9a62a1ddf%3A0x6788d74e073aa0c0!2sCrabtree%20Farms%20of%20Chattanooga!5e0!3m2!1sen!2sus!4v1613075678113!5m2!1sen!2sus",
+              "directions_link": "https://goo.gl/maps/shipwndKJ6byiKMu5",
+              "extralink_title": "WEBSITE",
+              "extralink_link": "https://crabtreefarms.org",
+              "sticker": "/images/stickers/local.png",
+              "footer": ""
+            },
+    	      {
+              "id": "5",
+              "title": "Clumpies Ice Cream Co.",
+              "image": "/images/13/location5.jpg",
+              "sidebar_image": "/images/13/sidebar5.jpg",
+              "image_description": "",
+              "description": "A tried and true Chattanooga favorite, Clumpies Ice Cream has been part of the community since 1999, and now has three locations throughout the city. During quarantine, their ice cream truck delivered pints directly to your door, which made it a much-needed staple for my family. That said, visiting the stores in person is much better. Every batch of ice cream is made by hand, with their tried and true favorites (mint chocolate chunk, coffee toffee, and firework feat. pop rocks) alongside temporary, seasonal creations (cranberry pear crumble, mulled plum sorbet, chocolate cherry cheesecake). With a variety of dairy free and sorbet options on offer, there is something for everyone to enjoy!",
+              "map_link": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d52269.31231763317!2d-85.35297012936964!3d35.035932038788346!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88605e78cf8fffff%3A0xbf3c02e2fe3f8ff6!2sClumpies%20Ice%20Cream%20Co.!5e0!3m2!1sen!2sus!4v1613075770664!5m2!1sen!2sus",
+              "directions_link": "https://goo.gl/maps/NsmiRsCi2QdQUAru9",
+              "extralink_title": "WEBSITE",
+              "extralink_link": "https://www.instagram.com/clumpies/",
+              "sticker": "/images/stickers/local2.png",
+              "footer": ""
+            }
+          ]
+    },
+    {
+      "id": 14,
+      "firstName": "Ruby",
+      "lastName": "Duffy",
+      "town": "Englewood Cliffs",
+      "stateAbbrv": "NJ",
+      "school": "Wesleyan University",
+      "classYear": "21",
+      "cardImage": "/images/cards/14card.jpg",
+      "bioImage": "/images/14/bio.jpg",
+      "bioBlurb": "Ruby is a senior at Wesleyan University. Next year Ruby will be heading to DC to become an elementary school teacher, but New Jersey will always be her home. Ruby talks too much about her dogs, John Mayer, and how she misses her pink hair.",
+
+      "locations": [
+          {
+            "id": "0",
+            "title": "",
+            "image": "/images/14/header.jpg",
+            "sidebar_image": "/images/14/header_sidebar.jpg",
+            "image_description": "",
+            "description": "Hi! My name is Ruby, and I’m from Englewood Cliffs, New Jersey. People from my area tend to refer to their hometown in terms of how many minutes it is from New York City, but I am about as proud of my town as New Jerseyans get. Sure, New York is cool and all, but we have better bagels, pizza, AND we have trees. If your only taste of New Jersey has been flying into Newark Airport or MTV’s Jersey Shore, I’m here to set the record straight. My actual hometown, Englewood Cliffs, is barely 1x3 miles, so I’m going to be giving you a guide to all of North Jersey. If you find yourself in Bergen County (and I really hope you do), check out these hot spots that will make you think twice about calling my home the “armpit of America” again.",
+            "map_link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48264.55364092446!2d-73.947408!3d40.88208655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f1431e1e0d17%3A0x9432c6bbf28318fc!2sEnglewood%20Cliffs%2C%20NJ%2007632!5e0!3m2!1sen!2sus!4v1613338912925!5m2!1sen!2sus",
+            "directions_link": "https://goo.gl/maps/jHwNLCwfCWzLMx6W7",
+            "extralink_title": "WEBSITE",
+            "extralink_link": "http://www.englewoodcliffsnj.org",
+            "sticker": "",
+            "display": "d-none"
+          },
+          {
+            "id": "1",
+            "title": "Fort Lee Pizzeria",
+            "image": "/images/14/location1.jpg",
+            "sidebar_image": "/images/14/sidebar1.jpg",
+            "image_description": "",
+            "description": "Fort Lee Pizzeria is very close to my heart: all the school lunches, birthday parties, and soccer games of my childhood were catered by this local favorite. This place has a classic slice-place style interior that hasn’t changed much since it first opened, all the way back in 1973. Order a plain pie or grandma style slice—coincidentally my grandma’s favorite! And while you’re there, don’t forget to say hi to Rick, who is the beloved owner and a personal friend.",
+            "map_link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3017.31431178442!2d-73.96375868459037!3d40.86497597931557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f6c98fdae73f%3A0x86168c4650fa5db1!2sFort%20Lee%20Pizza!5e0!3m2!1sen!2sus!4v1613338987628!5m2!1sen!2sus",
+            "directions_link": "https://goo.gl/maps/QHCrEvnPre2jp1hR7",
+            "extralink_title": "WEBSITE",
+            "extralink_link": "https://fortleepizzeria.com/",
+            "sticker": "/images/stickers/bang.png",
+            "footer": ""
+          },
+   	      {
+            "id": "2",
+            "title": "Palisades Interstate Park",
+            "image": "/images/14/location2.jpg",
+            "sidebar_image": "/images/14/sidebar2.jpg",
+            "image_description": "",
+            "description": "Palisades Interstate Park is less than five minutes from my house, and spans the length of the Hudson River from Fort Lee to Alpine. You have the option to either hike 340 feet downhill to a waterfront which leads under the George Washington Bridge, or hike along the top of the cliffs which give our town its name. Either choice leads to a great scenic spot where you can check out New York City from a distance. Over the summer you have to pay for parking, so I recommend parking up top instead and walking down. You’ll encounter a waterfall and some of those New Jersey trees I was talking about before! In the summer, don't forget to grab lunch at the Snack Shack and enjoy it in the Englewood Picnic Area.",
+            "map_link": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3016.76718912115!2d-73.9486941!3d40.8769831!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f150397f3509%3A0xada389b859c12235!2sEnglewood%20Picnic%20Area!5e0!3m2!1sen!2sus!4v1613339073836!5m2!1sen!2sus",
+            "directions_link": "https://goo.gl/maps/QAp3GzpkK3q8omJC8",
+            "extralink_title": "WEBSITE",
+            "extralink_link": "https://www.njpalisades.org",
+            "sticker": "/images/stickers/spot.png",
+            "footer": ""
+          },
+   	      {
+            "id": "3",
+            "title": "Overpeck County Park",
+            "image": "/images/14/location3.jpg",
+            "sidebar_image": "/images/14/sidebar3.jpg",
+            "image_description": "",
+            "description": "Overpeck County Park is one of my favorite parks in the area! In true New Jersey fashion, it used to be a landfill, but is now home to a 805-acre park. The New Overpeck Park opened in 2010 with beautiful walkways around the Overpeck Creek, state of the art sports facilities, some sick looking playgrounds, fishing spots, a kayak rental site, and equestrian center. Personally, my favorite spot is the dog run across the street at the original Overpeck Park!",
+            "map_link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3017.343898903257!2d-73.99917448459041!3d40.864326579315644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f73955422ae1%3A0xc4c82224d41afb83!2sOverpeck%20County%20Park!5e0!3m2!1sen!2sus!4v1613339189276!5m2!1sen!2sus",
+            "directions_link": "https://goo.gl/maps/7iqCyvpkTyiEAYKT7",
+            "extralink_title": "WEBSITE",
+            "extralink_link": "https://www.co.bergen.nj.us/parks-recreation-areas/overpeck-county-park",
+            "sticker": "",
+            "footer": ""
+          },
+   	      {
+            "id": "4",
+            "title": "Ice Cream on Grand",
+            "image": "/images/14/location4.jpg",
+            "sidebar_image": "/images/14/sidebar4.jpg",
+            "image_description": "",
+            "description": "Ice Cream on Grand is always popping on summer nights and is an unbeatable seasonal ice cream location! While it’s not uncommon to hang and eat your homemade ice cream in the parking lot, if you want the real New Jersey experience, you might want to check out driving aimlessly around suburbs for an hour or so.",
+            "map_link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.769418535202!2d-73.98512278459!3d40.8769341793142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f12a75bdfb83%3A0xf56c4929983cb369!2sIce%20Cream%20on%20Grand!5e0!3m2!1sen!2sus!4v1613339322551!5m2!1sen!2sus",
+            "directions_link": "https://goo.gl/maps/9qgi9Y3ZQfN4FgKAA",
+            "extralink_title": "WEBSITE",
+            "extralink_link": "https://www.icecreamongrand.com/",
+            "sticker": "/images/stickers/local.png",
+            "footer": "Make sure to send your business this way—this spot is BIPOC-owned!"
+          },
+   	      {
+            "id": "5",
+            "title": "BCD Tofu House",
+            "image": "/images/14/location5.jpg",
+            "sidebar_image": "/images/14/sidebar5.jpg",
+            "image_description": "",
+            "description": "If you like trying new foods, then New Jersey is the place for you! My immediate neighborhood is approximately half Korean, so we have no shortage of delicious Korean cuisine, but my personal favorite is definitely BCD Tofu House. Visiting this restaurant is an unmissable experience. When you sit down, you’ll be met with an assortment of complimentary dishes. The selection changes day-to-day, but you can usually expect kimchi, assorted pickled vegetables, delicious dipping sauces, and a raw egg (don’t worry, that’s for later!). My go-to order is the Soon Tofu Soup. It comes to you boiling hot, and you can crack the aforementioned egg into it for added protein! An unusual quirk is that this restaurant has a kid’s playroom in the back whose feed is broadcasted on screens across the restaurant, so it’s also a great choice if you can’t find a sitter. I just had to remind myself that this isn’t just a food tour, so I’m gonna drop some of my other can’t miss favs here. PJ Sushi in Fort Lee (notable for their big rolls, takeaway sushi, and its hospitable owners) is my first stop whenever I come home; Binghamton Bagel & Deli in Fort Lee has the best bagels around (order Taylor ham, egg, and cheese on a bagel for the true Jersey experience); and make sure to check out the family-run Bennies in Englewood for ambiance and fantastic Middleastern food.",
+            "map_link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3017.9992311734027!2d-73.97223068459087!3d40.84994067931716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f6e8661f7b37%3A0x31a19973d2c1568!2sBCD%20Tofu%20House!5e0!3m2!1sen!2sus!4v1613339483227!5m2!1sen!2sus",
+            "directions_link": "https://goo.gl/maps/ZbXeQ67pbn7FnqZUA",
+            "extralink_title": "WEBSITE",
+            "extralink_link": "https://www.bcdtofuhouse.com/",
+            "sticker": "",
+            "footer": "Make sure to send your business this way—this spot is BIPOC and women-owned!"
+          }
+      ]
     },
     {
         "id": 11,
@@ -1213,5 +1510,7 @@
             }
         ]
     }
+
+
 
 ]
