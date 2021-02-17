@@ -131,30 +131,6 @@ class App extends Component {
                   </div>
                 </Route>
 
-                {/* changed here from "/bio"} */}
-                {/*
-                <Route exact path="/bio"
-                  render={() =>
-                    <div className="row no-gutters">
-                      <div className="col-12 col-md-8">
-                        <Bio
-                          selectedCard={this.state.selectedCard}
-                          selectedLocation={this.state.selectedLocation}
-                          locationUpdate={this.locationUpdate.bind(this)}
-                        />
-                      </div>
-
-                      <div className="d-none d-md-block col-md-4">
-                        <BioSidebar
-                          selectedLocation={this.state.selectedLocation}
-                          locationUpdate={this.locationUpdate.bind(this)}
-                        />
-                      </div>
-                    </div>
-                  }
-                />
-                */}
-
                 {/* Mobile bio side bar link */}
                 <Route exact path="/more-info"
                   render={() =>
