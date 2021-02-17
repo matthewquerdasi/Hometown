@@ -1,6 +1,8 @@
 import React, { Component, useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import {withRouter} from 'react-router-dom';
 import { FiArrowRight } from "react-icons/fi";
+import PersonsData from '../data/persons.json';
 import '../css/Bio.css';
 import '../css/bootstrap.min.css';
 
@@ -12,12 +14,21 @@ class Bio extends Component {
   locationUpdate(location) {
     this.props.locationUpdate(location);
   }
+
+
   render() {
 
-    const card = this.props.selectedCard;
-    const locations = card.locations
-    const selectedLocation = this.props.selectedLocation
+    const id = this.props.match.params.id
 
+    const sp = PersonsData.filter(person => {
+      return person.id == id
+    })
+
+    const selectedPerson = sp[0]
+
+    const locations = selectedPerson.locations
+
+    {/* locationList contains all location html info  */}
     const locationsList = locations
       .map(place => {
         return (
@@ -79,35 +90,31 @@ class Bio extends Component {
         )
       })
 
-
-    return (
+    return(
       <div className="bio-container">
-        <div className="bio-content">
-          <h1>{card.town}, {card.stateAbbrv}</h1>
-          <h3 className="mb-4"> By {card.firstName} {card.lastName}, {card.school} '{card.classYear} </h3>
+          <div className="bio-content">
+            <h1>{selectedPerson.town}, {selectedPerson.stateAbbrv}</h1>
+            <h3 className="mb-4"> By {selectedPerson.firstName} {selectedPerson.lastName}, {selectedPerson.school} '{selectedPerson.classYear} </h3>
 
-          <div>
-            {locationsList}
-          </div>
+            <div>
+              {locationsList}
+            </div>
 
-          <div className="personal-bio row">
-            <div className="col-8 offset-2 offset-md-0 col-md-3">
-              <a href={card.bioWebsite} target="_blank">
-                <img src={card.bioImage}></img>
-              </a>
-            </div>
-            <div className="col-12 col-md-9 text-center text-md-left mt-2 mt-md-0">
-              <h4> {card.firstName} {card.lastName}</h4>
-              <p className="">{card.bioBlurb} </p>
+            <div className="personal-bio row">
+              <div className="col-8 offset-2 offset-md-0 col-md-3">
+                <a href={selectedPerson.bioWebsite} target="_blank">
+                  <img src={selectedPerson.bioImage}></img>
+                </a>
+              </div>
+              <div className="col-12 col-md-9 text-center text-md-left mt-2 mt-md-0">
+                <h4> {selectedPerson.firstName} {selectedPerson.lastName}</h4>
+                <p className="">{selectedPerson.bioBlurb} </p>
+              </div>
             </div>
           </div>
-        </div>
       </div>
     )
-
   }
 }
 
-
-
-export default Bio;
+export default withRouter(Bio);

@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import PersonsData from '../data/persons.json';
+import StickersData from '../data/stickers.json';
 import '../css/About.css';
 
 
@@ -6,12 +8,12 @@ class About extends Component {
 
   render() {
 
-    const data = this.props.data;
+    const data = PersonsData;
     const matt = data[0];
     const zoe = data[1];
     const hannah = data[2];
 
-    const stickers = this.props.stickers;
+    const stickers = StickersData;
 
 
 

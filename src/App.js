@@ -1,7 +1,6 @@
 import React,{ Component, useEffect, useState } from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import ReactGA from 'react-ga';
-import Person from './components/Person.js';
 import Bio from './components/Bio.js';
 import BioSidebar from './components/BioSidebar.js';
 import Search from './components/Search.js';
@@ -81,27 +80,59 @@ class App extends Component {
             <div className='offset-md-3 col-12 col-md-9 '>
 
               <Switch>
-                <Route exact path="/"
-                  render={() =>
-                    <div>
-                      <div className="Search d-none d-md-flex">
-                        <Search
-                          filterText={this.state.filterText}
-                          filterUpdate={this.filterUpdate.bind(this)}
-                        />
-                      </div>
+                <Route exact path="/">
+                  <div className="Search d-none d-md-flex">
+                    <Search
+                      filterText={this.state.filterText}
+                      filterUpdate={this.filterUpdate.bind(this)}
+                    />
+                  </div>
+                  <div className="card-columns no-gutter-gap">
+                    {
+                      PersonsData.map((person)=>
+                        <div key={person.id} className="">
+                          <Link to={"/card/"+person.id} onClick={this.cardUpdate.bind(this, person)}>
+                            <div className='card-container'>
+                              <div className='card person mb-0'>
+                                <div className="card-content" key={person.id}>
+                                  <div className='card-image'>
+                                    <img src={person.cardImage}></img>
+                                  </div>
+                                  <h1 className="mt-3">{person.town}, {person.stateAbbrv}</h1>
+                                  <h3 className="lead"> by {person.firstName} {person.lastName}</h3>
+                                </div>
+                              </div>
+                            </div>
+
+                          </Link>
+                        </div>)
+                    }
+                  </div>
+                </Route>
 
 
-                      <Person
-                        data={PersonsData}
-                        filterText={this.state.filterText}
-                        selectedCard={this.state.selectedCard}
-                        cardUpdate={this.cardUpdate.bind(this)}
+                <Route exact path="/card/:id">
+                  <div className="row no-gutters">
+
+                    <div className="col-12 col-md-8">
+                      <Bio
+                        selectedLocation={this.state.selectedLocation}
+                        locationUpdate={this.locationUpdate.bind(this)}
                       />
-                    </div>}
-                />
+                    </div>
+
+                    <div className="d-none d-md-block col-md-4">
+                        <BioSidebar
+                          selectedLocation={this.state.selectedLocation}
+                          locationUpdate={this.locationUpdate.bind(this)}
+                        />
+                    </div>
+
+                  </div>
+                </Route>
 
                 {/* changed here from "/bio"} */}
+                {/*
                 <Route exact path="/bio"
                   render={() =>
                     <div className="row no-gutters">
@@ -122,6 +153,7 @@ class App extends Component {
                     </div>
                   }
                 />
+                */}
 
                 {/* Mobile bio side bar link */}
                 <Route exact path="/more-info"

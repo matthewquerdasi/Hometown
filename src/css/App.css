@@ -107,3 +107,58 @@ hr {
     transform: rotate(360deg);
   }
 }
+
+
+
+
+/* CARD STYLING */
+.person {
+  border: 1px solid black !important;
+  border-radius: 0px !important;
+  padding: 10%;
+  background: white;
+  align-items: center;
+  -webkit-transition: padding 0.2s !important;
+
+  /* adjustments for border lines*/
+  margin-left: 0px; /* use -2px to have no left side double up */
+}
+
+/* card hover behavior */
+.person:hover {
+  /* border: 4px solid black !important; */
+  padding: 12%;
+  -webkit-transition: padding 0.2s !important;
+}
+
+.card-container {
+  height: 100% !important;
+}
+
+.card-image:hover{
+
+}
+
+.person img {
+  width: 100%;
+}
+
+.person h1 {
+  font-family: 'BluuNext';
+  font-size: 2rem;
+}
+
+.person h3 {
+  font-family: 'Karla-Regular';
+  font-size: 1.25rem;
+  margin-bottom: 0px;
+}
+
+.no-gutter-gap {
+  column-gap: 0 !important;
+}
+
+.card-columns a, .card-columns a:hover {
+  text-decoration: none;
+  color: black;
+}
