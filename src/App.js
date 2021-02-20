@@ -89,7 +89,12 @@ class App extends Component {
                   </div>
                   <div className="card-columns no-gutter-gap">
                     {
-                      PersonsData.map((person)=>
+                      PersonsData
+                      .filter(person => {
+                        // remove people that cities don't match current filterText
+                        return person.town.toLowerCase().indexOf(this.state.filterText.toLowerCase()) >= 0
+                      })
+                      .map((person)=>
                         <div key={person.id} className="">
                           <Link to={"/card/"+person.id} onClick={this.cardUpdate.bind(this, person)}>
                             <div className='card-container'>

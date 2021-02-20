@@ -53,7 +53,7 @@ class Search extends Component {
               className="search-bar-desktop no-outline"
               type="text"
               ref={ (value) => {this.searchValue = value} } // making reference into a callback function that stores input value as searchValue
-              placeholder="Ex: Brooklyn..."
+              placeholder="Ex: Boston..."
               onChange={this.filterUpdate.bind(this)}
             />
           </form>
