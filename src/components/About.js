@@ -9,9 +9,9 @@ class About extends Component {
   render() {
 
     const data = PersonsData;
-    const matt = data[0];
-    const zoe = data[1];
-    const hannah = data[2];
+    const matt = data[1];
+    const zoe = data[2];
+    const hannah = data[3];
 
     const stickers = StickersData;
 
