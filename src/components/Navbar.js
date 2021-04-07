@@ -16,7 +16,6 @@ class Navbar extends Component {
   }
 
   render() {
-
     return (
       <div className="navbarContainer d-flex d-md-none">
         <div className="w-100">
@@ -30,22 +29,6 @@ class Navbar extends Component {
                 </ScrollRotate>
 
               </Link>
-            </div>
-
-            <div className="search-container-mobile">
-              {/*
-              <IoIosSearch size={30} stroke-width={1.5} className="search-icon-mobile"/>
-
-              <form>
-                <input
-                  className="search-bar-mobile no-outline gray-background"
-                  type="text"
-                  ref={ (value) => {this.searchValue = value} } // making reference into a callback function that stores input value as searchValue
-                  placeholder="Ex: Brooklyn..."
-                  onChange={this.filterUpdate.bind(this)}
-                />
-              </form>
-              */}
             </div>
 
             {/* DROPDOWN */}
@@ -69,6 +52,5 @@ class Navbar extends Component {
     )
   }
 }
-
 
 export default Navbar;

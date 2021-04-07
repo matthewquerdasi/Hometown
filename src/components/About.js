@@ -15,8 +15,6 @@ class About extends Component {
 
     const stickers = StickersData;
 
-
-
     return (
       <div className="p-4 pl-md-5 pr-md-5 pt-md-5 text-left about-container">
         <h1>WHAT'S THE STORY HERE?</h1>
@@ -111,14 +109,11 @@ class About extends Component {
           </div>
         </div>
 
-
-
         <h1 className="mt-5 mt-md-0">WANNA SUBMIT YOUR HOMETOWN?</h1>
 
         <p>Just click <a className="submit-click" href="https://forms.gle/jyf7vHMbRKuhwBM99" target="_blank"> here! </a></p>
 
       </div>
-
 
     )
   }

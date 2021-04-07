@@ -6,15 +6,12 @@ import PersonsData from '../data/persons.json';
 import '../css/Bio.css';
 import '../css/bootstrap.min.css';
 
-
-
 class Bio extends Component {
 
   // calls parent locationUpdate in App on updated location
   locationUpdate(location) {
     this.props.locationUpdate(location);
   }
-
 
   render() {
 

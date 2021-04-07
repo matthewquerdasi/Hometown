@@ -5,13 +5,11 @@ import '../css/BioSidebar.css';
 import '../css/bootstrap.min.css';
 
 
-
 class BioSidebar extends Component {
-
 
   render() {
 
-    {/* setting start location based on url or parent route */}
+    {/* check for prop or url path */}
     if(this.props.selectedLocation == 1) {
       const id = this.props.match.params.id
 
@@ -26,7 +24,6 @@ class BioSidebar extends Component {
     } else {
       var location = this.props.selectedLocation
     }
-
 
     return (
       <div className="d-none d-md-block col-md-4">
@@ -59,13 +56,9 @@ class BioSidebar extends Component {
           </footer>
         </div>
       </div>
-
-
     )
 
   }
 }
-
-
 
 export default withRouter(BioSidebar);

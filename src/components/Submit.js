@@ -5,7 +5,6 @@ import '../css/Submit.css';
 class Submit extends Component {
 
   render() {
-
     return (
       <div className="p-4 pl-md-5 pr-md-5 pt-md-5 text-left submit-container">
         <h1 className="">SUBMIT YOUR HOMETOWN</h1>

@@ -19,8 +19,6 @@ import './css/bootstrap.min.css';
 
 
 class App extends Component {
-
-
   constructor(props){
     super(props);
     this.state = {
@@ -53,7 +51,6 @@ class App extends Component {
   }
 
   render () {
-
     return (
       <Router>
         <ScrollToTop />
@@ -65,7 +62,7 @@ class App extends Component {
               data={MenuData}
             />
 
-            {/* MOBILE NAVBAR */}
+            {/* navbar for mobile */}
             <Navbar />
 
             <div className='offset-md-3 col-12 col-md-9 '>
