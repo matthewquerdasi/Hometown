@@ -91,27 +91,29 @@ class Bio extends Component {
       })
 
     return(
-      <div className="bio-container">
-          <div className="bio-content">
-            <h1>{selectedPerson.town}, {selectedPerson.stateAbbrv}</h1>
-            <h3 className="mb-4"> By {selectedPerson.firstName} {selectedPerson.lastName}, {selectedPerson.school} '{selectedPerson.classYear} </h3>
+      <div className="col-12 col-md-8">
+        <div className="bio-container">
+            <div className="bio-content">
+              <h1>{selectedPerson.town}, {selectedPerson.stateAbbrv}</h1>
+              <h3 className="mb-4"> By {selectedPerson.firstName} {selectedPerson.lastName}, {selectedPerson.school} '{selectedPerson.classYear} </h3>
 
-            <div>
-              {locationsList}
-            </div>
+              <div>
+                {locationsList}
+              </div>
 
-            <div className="personal-bio row">
-              <div className="col-8 offset-2 offset-md-0 col-md-3">
-                <a href={selectedPerson.bioWebsite} target="_blank">
-                  <img src={selectedPerson.bioImage}></img>
-                </a>
-              </div>
-              <div className="col-12 col-md-9 text-center text-md-left mt-2 mt-md-0">
-                <h4> {selectedPerson.firstName} {selectedPerson.lastName}</h4>
-                <p className="">{selectedPerson.bioBlurb} </p>
+              <div className="personal-bio row">
+                <div className="col-8 offset-2 offset-md-0 col-md-3">
+                  <a href={selectedPerson.bioWebsite} target="_blank">
+                    <img src={selectedPerson.bioImage}></img>
+                  </a>
+                </div>
+                <div className="col-12 col-md-9 text-center text-md-left mt-2 mt-md-0">
+                  <h4> {selectedPerson.firstName} {selectedPerson.lastName}</h4>
+                  <p className="">{selectedPerson.bioBlurb} </p>
+                </div>
               </div>
             </div>
-          </div>
+        </div>
       </div>
     )
   }

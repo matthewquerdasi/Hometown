@@ -1,3 +1,7 @@
+.menuContainer {
+  border-right: 2px solid black;
+}
+
 .menu {
   height: 100vh;
   text-align: center;

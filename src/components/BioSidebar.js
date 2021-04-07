@@ -29,41 +29,35 @@ class BioSidebar extends Component {
 
 
     return (
-      <div className="biosidebar-container sticky-top">
-
-        <div className="biosidebar-content">
-
-          <div className="circle-container-bio">
-            <div className="pl-2 pt-2">
-              <h5 className="circle-bio"> {location.id} </h5>
+      <div className="d-none d-md-block col-md-4">
+        <div className="biosidebar-container sticky-top">
+          <div className="biosidebar-content">
+            <div className="circle-container-bio">
+              <div className="pl-2 pt-2">
+                <h5 className="circle-bio"> {location.id} </h5>
+              </div>
             </div>
+
+            <img src={location.sidebar_image}></img>
+
+            <iframe src={location.map_link} tabIndex="0"></iframe>
           </div>
 
-          <img src={location.sidebar_image}></img>
-
-          <iframe src={location.map_link} tabIndex="0"></iframe>
+          <footer className="biosidebar-footer text-center">
+            <hr></hr>
+            <a href={location.directions_link} target="_blank">
+              <div className="biosidebar-btn">
+                GET DIRECTIONS
+              </div>
+            </a>
+            <hr></hr>
+            <a href={location.extralink_link} target="_blank">
+              <div className="biosidebar-btn">
+                {location.extralink_title}
+              </div>
+            </a>
+          </footer>
         </div>
-
-
-        <footer className="biosidebar-footer text-center">
-          <hr></hr>
-
-          <a href={location.directions_link} target="_blank">
-            <div className="biosidebar-btn">
-              GET DIRECTIONS
-            </div>
-          </a>
-
-          <hr></hr>
-
-          <a href={location.extralink_link} target="_blank">
-            <div className="biosidebar-btn">
-              {location.extralink_title}
-            </div>
-          </a>
-
-        </footer>
-
       </div>
 
 

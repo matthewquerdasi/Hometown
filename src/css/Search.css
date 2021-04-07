@@ -1,4 +1,15 @@
 /* MOBILE */
+.searchContainer {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  border-bottom: 2px solid black;
+  background: white;
+  /* adjustments for border lines*/
+  margin-bottom: -1px;
+}
+
 .search-container-mobile {
   display: flex;
   margin-top: 20px;

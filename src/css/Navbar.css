@@ -1,3 +1,13 @@
+.navbarContainer {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  border: 1px solid black;
+  width: 100%;
+  font-family: 'Karla-Regular';
+}
+
 .search-container-mobile {
   display: flex;
   margin-top: 20px;

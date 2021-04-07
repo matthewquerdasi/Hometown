@@ -60,33 +60,25 @@ class App extends Component {
         <div className='App'>
 
           <div className='row no-gutters'>
-            <div className='col-3 position-fixed'>
-              <div className="Menu">
-                <Menu
-                  data={MenuData}
-                />
-              </div>
 
-            </div>
-
+            <Menu
+              data={MenuData}
+            />
 
             {/* MOBILE NAVBAR */}
-            <div className="Navbar d-flex d-md-none">
-              <Navbar
-              />
-            </div>
-
+            <Navbar />
 
             <div className='offset-md-3 col-12 col-md-9 '>
 
               <Switch>
                 <Route exact path="/">
-                  <div className="Search d-none d-md-flex">
-                    <Search
-                      filterText={this.state.filterText}
-                      filterUpdate={this.filterUpdate.bind(this)}
-                    />
-                  </div>
+
+                  <Search
+                    filterText={this.state.filterText}
+                    filterUpdate={this.filterUpdate.bind(this)}
+                  />
+
+                  {/* routing endpoint for each card using card id */}
                   <div className="card-columns no-gutter-gap">
                     {
                       PersonsData
@@ -115,24 +107,17 @@ class App extends Component {
                   </div>
                 </Route>
 
-
                 <Route exact path="/card/:id">
                   <div className="row no-gutters">
+                    <Bio
+                      selectedLocation={this.state.selectedLocation}
+                      locationUpdate={this.locationUpdate.bind(this)}
+                    />
 
-                    <div className="col-12 col-md-8">
-                      <Bio
-                        selectedLocation={this.state.selectedLocation}
-                        locationUpdate={this.locationUpdate.bind(this)}
-                      />
-                    </div>
-
-                    <div className="d-none d-md-block col-md-4">
-                        <BioSidebar
-                          selectedLocation={this.state.selectedLocation}
-                          locationUpdate={this.locationUpdate.bind(this)}
-                        />
-                    </div>
-
+                    <BioSidebar
+                      selectedLocation={this.state.selectedLocation}
+                      locationUpdate={this.locationUpdate.bind(this)}
+                    />
                   </div>
                 </Route>
 
@@ -140,19 +125,13 @@ class App extends Component {
                 <Route exact path="/more-info"
                   render={() =>
                     <div className="row no-gutters">
-
-                      <div className="col-12 d-block d-md-none">
-                        <BioSidebar
-                          selectedLocation={this.state.selectedLocation}
-                          locationUpdate={this.locationUpdate.bind(this)}
-                        />
-                      </div>
-
+                      <BioSidebar
+                        selectedLocation={this.state.selectedLocation}
+                        locationUpdate={this.locationUpdate.bind(this)}
+                      />
                     </div>
                   }
                 />
-
-
 
                 <Route exact path="/about"
                   render={() =>
@@ -174,7 +153,6 @@ class App extends Component {
                 />
 
                 <Route component={NotFoundPage} />
-
               </Switch>
 
             </div>

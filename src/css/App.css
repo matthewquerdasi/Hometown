@@ -27,31 +27,6 @@ hr {
   background-color: white;
 }
 
-.Search {
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-  z-index: 1;
-  border-bottom: 2px solid black;
-  background: white;
-  /* adjustments for border lines*/
-  margin-bottom: -1px;
-}
-
-.Menu {
-  border-right: 2px solid black;
-}
-
-.Navbar {
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-  z-index: 5;
-  border: 1px solid black;
-  width: 100%;
-  font-family: 'Karla-Regular';
-}
-
 /* Fonts */
 .BluuNext {
   font-family: 'BluuNext', Fallback, sans-serif;
